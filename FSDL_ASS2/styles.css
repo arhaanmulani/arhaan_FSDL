@@ -1,0 +1,29 @@
+/* Tag selector */
+body {
+    font-family: Arial;
+}
+
+/* Class selector */
+.hero {
+    background-image: url("images/campus.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ID selector */
+#register {
+    margin-bottom: 40px;
+}
+
+/* Borders, margins, padding */
+form {
+    background-color: #f9f9f9;
+}
+
+table {
+    margin-top: 20px;
+}
