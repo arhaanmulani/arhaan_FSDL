@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Student Registration</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+<h2 id="title">Student Registration</h2>
+
+<form onsubmit="return validateForm()">
+<input type="text" id="username" placeholder="Username">
+<input type="text" id="email" placeholder="Email">
+<input type="text" id="phone" placeholder="Phone Number">
+<input type="password" id="password" placeholder="Password">
+<input type="password" id="confirmPassword" placeholder="Confirm Password">
+<button id="submitBtn">Register</button>
+</form>
+
+<p id="message"></p>
+<img id="img" src="https://via.placeholder.com/150" width="150">
+
+<div class="extraBtns">
+<button onclick="changeImage()">Change Image</button>
+<button onclick="addText()">Add Text</button>
+<button onclick="deleteNode()">Delete Text</button>
+<button id="jqText">jQuery Text</button>
+<button id="jqBg">Background</button>
+<button id="jqForm">Show Data</button>
+<button id="jqAttr">Add Attribute</button>
+</div>
+
+<div id="parent"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

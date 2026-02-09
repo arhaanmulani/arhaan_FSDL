@@ -1,0 +1,43 @@
+body {
+margin: 0;
+font-family: 'Segoe UI', sans-serif;
+background: linear-gradient(120deg,#4facfe,#00f2fe);
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.container {
+background: rgba(255,255,255,0.15);
+backdrop-filter: blur(10px);
+padding: 30px 40px;
+border-radius: 15px;
+width: 350px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+text-align: center;
+}
+
+h2 { color: white; }
+
+input {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+border-radius: 8px;
+border: none;
+}
+button {
+background: #222;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 8px;
+cursor: pointer;
+margin-top: 10px;
+}
+
+button:hover { background: black; }
+
+#message { font-weight: bold; }
+img { margin-top: 20px; border-radius: 10px; }
